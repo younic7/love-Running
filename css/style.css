@@ -48,3 +48,15 @@ main{
 footer{
     background-color: chartreuse;
 }
+#menu{
+    width: 110%;
+    letter-spacing: 4px;
+    list-style: none;
+    color: black;
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+.active{
+    border-bottom:1px solid#3a3a3a ;
+}
