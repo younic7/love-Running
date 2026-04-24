@@ -1,0 +1,19 @@
+/*asterik willcard to override default styles add by the browser*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*heade */
+header{
+    background-color: aqua;
+}
+/*main*/
+main{
+    background-color: blueviolet;
+}
+/*footer*/
+footer{
+    background-color: chartreuse;
+}
