@@ -21,6 +21,9 @@ body{
 header{
     background-color: aqua;
 }
+h1{
+    font-family: "Oswal",sans-serif;
+}
 /*main*/
 main{
    
