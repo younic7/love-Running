@@ -123,6 +123,7 @@ footer{
     }
     
 }
+/* large devices*/
 @media screen and (min-width: 992px) {
 
     #menu a {
