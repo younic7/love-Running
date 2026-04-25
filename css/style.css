@@ -19,7 +19,7 @@ body{
 }
 /*heade */
 header{
-    background-color: aqua;
+    
     color: #ffffff;
     padding:0 1rem;
     position: fixed;
@@ -29,6 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 header a{
     text-decoration: none;
@@ -65,11 +66,17 @@ nav {
 /*main content */
 main{
    
-    background-color:pink;
+     
     /*make the main element to take all space to push the footer down*/
     flex:1 0 auto;
     margin-top: 47px;
 }
+/*hero styles*/
+ #hero{
+    height: 600px;
+    width:100%;
+    background: url("../assets/images/hero-image.webp") no-repeat center center/cover;
+ }
 #menu{
     width: 110%;
     letter-spacing: 4px;
@@ -131,7 +138,7 @@ main{
     /*main content*/
     main {
         /*push main content down to accommodate larger header*/
-        margin-top: 79px;
+        margin-top: 89px;
     }
     
 }
