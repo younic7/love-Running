@@ -37,16 +37,24 @@ h1{
     letter-spacing: 2px;
     color: #252525;
 }
-/*main*/
+/* nav bar style with dropdown toggle */
+nav {
+    position:absolute;
+    background-color: #ffffff;
+    left:0;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
+
+/*main content */
 main{
    
     background-color:pink;
     /*make the main element to take all space to push the footer down*/
     flex:1 0 auto;
-}
-/*footer*/
-footer{
-    background-color: chartreuse;
+    margin-top: 47px;
 }
 #menu{
     width: 110%;
@@ -55,8 +63,40 @@ footer{
     color: black;
 }
 #menu > li {
+    
     margin-bottom: 1em;
 }
 .active{
+    display: inline-block;
     border-bottom:1px solid#3a3a3a ;
 }
+/*footer*/
+footer{
+    background-color: chartreuse;
+}
+/*Media query: tablets and larger(768px and up) 
+@media screen and (min-width:768px){
+    
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+
+
+
+    }
+    #menu{
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display:none;
+
+    }
+    
+}
+
